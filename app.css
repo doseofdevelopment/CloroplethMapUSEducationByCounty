@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #caf0f8;
+}
+
+#canvas { 
+    background-color: #90e0ef;
+}
+
+#tooltip {
+    color: #0077b6;
+    position: absolute;
+    pointer-events: none;
+}
+
+#title {
+    color: #03045e;
+    font-weight: 400;
+}
+
+#description {
+    color: #03045e;
+    font-weight: 200;
+}
